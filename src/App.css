@@ -1,0 +1,51 @@
+  * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  html, body {
+      height : 100%;
+      width  : 100%;
+      overflow: hidden;
+  }
+  
+  .container{
+    width: 70vw;
+    height: 65vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: stretch;
+    margin: 30px auto;
+  }
+
+  .left{  
+    background-color: black;
+    border: 1px solid black;
+    flex: 1;
+    box-sizing: border-box;
+  }
+
+  .left textarea{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+    resize: none;
+    padding: 0.5rem 0.8rem ;
+    box-sizing: border-box;
+    outline: none;
+  white-space: pre-wrap;      /* Preserves whitespace and line breaks */
+  overflow-wrap: break-word;  /* Breaks long words */
+  }
+  .right{
+    padding: 0.5rem 1.2rem ;
+    flex: 1;
+    white-space: normal; 
+  white-space: pre-wrap;      /* Allows line breaks to be displayed as typed */
+  word-break: break-all;      /* Breaks long words onto the next line */
+  overflow-wrap: break-word; 
+  overflow-y: auto;
+  }
