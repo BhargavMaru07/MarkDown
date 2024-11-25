@@ -1,8 +1,22 @@
-# React + Vite
+# MarkDown
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Text to MarkDown 
 
-Currently, two official plugins are available:
+## For heading..
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. For H1 '# hello'
+2. For H2 '## hello'
+3. For H3 '### hello'
+
+## For bold text 
+" **bold text** "
+
+## For italic text
+"*italicized text*"
+
+1. First item
+2. Second item
+
+## For Links and Photo
+[Click Me for google](https://www.google.com)
+![alt text](/vite.svg)
